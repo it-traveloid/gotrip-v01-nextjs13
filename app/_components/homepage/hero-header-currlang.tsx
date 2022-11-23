@@ -98,7 +98,7 @@ export default function HeroHeaderdata() {
 			{show && (
 				<>
 					<div className="absolute -z-0 top-0 left-0 w-screen h-screen bg-black bg-opacity-40" onClick={handleShow}></div>
-					<div className="absolute text-sm text-text-color-1 -translate-y-1/2 -translate-x-1/2 top-1/2 left-1/2 sm:w-[380px] w-full px-4">
+					<div className="absolute text-sm text-text-color-1 -translate-y-1/2 -translate-x-1/2 top-1/2 left-1/2 sm:w-[400px] w-full px-4">
 						<div className="bg-white p-6 rounded">
 							<div className="flex justify-between items-center mb-4">
 								<p className="text-lg">Choose your currency & language</p>
