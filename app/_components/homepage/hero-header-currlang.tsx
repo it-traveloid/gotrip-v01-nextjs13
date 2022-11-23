@@ -36,7 +36,7 @@ export default function HeroHeaderdata() {
 				return { ...i, language: getLanguageCookie as string };
 			});
 		} else {
-			const findLanguage = languages.find((lang) => lang.code === 'my_en');
+			const findLanguage = languages.find((lang) => lang.code === 'my-en');
 			if (!!findLanguage) setSelectedLanguage(findLanguage);
 		}
 	}, []);
